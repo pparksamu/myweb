@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 150px;
+}
+nav {
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+nav ul li {
+    color: aliceblue;
+    list-style-type: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;color: aliceblue;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;color:rgb(85,255,0)
+}
+.hero-box {
+    height: 400px;
+    background-image: url(개인홈페이지/제주바다2.jpg);
+    background-size: cover;
+    margin: 1%;
+
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+}
+.col {
+    float: left;
+    width: 32%;
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+
+}
+.col img {
+    width: 100%;
+    height: auto;
+}
+.footer-text {
+    color: aliceblue;
+    margin: 1%;
+    text-align: center;
+}
+@media (max-width:900px) {
+    .col {
+        width: 48.5%;
+}
+}
+
+@media (max-width:700px) {
+    .col {
+        width: 98%;
+    }
+}
